@@ -103,7 +103,8 @@ function App() {
           Projects{' '}
           <span role="img" aria-label="rocketship emoji">
             🚀
-          </span>
+          </span>{' '}
+          - each of these is a work in progress
         </h1>
         <Projects />
         <div className="link-row">
@@ -134,10 +135,12 @@ function App() {
         </div>
       </section>
       <footer className="footer">
-        Questions, Comments, Book suggestion?{' '}
-        <a href="mailto:akruegr@gmail.com" className="highlight margin-left">
-          Send me an email!
-        </a>
+        <p>
+          &copy;2019 All Rights Reserved. Questions, Comments, Book suggestions?{' '}
+          <a href="mailto:akruegr@gmail.com" className="highlight">
+            Send me an email!
+          </a>
+        </p>
       </footer>
     </main>
   );
