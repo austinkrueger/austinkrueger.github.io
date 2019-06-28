@@ -141,6 +141,24 @@ p {
   align-items: flex-end;
 }
 
-.margin-left {
-  margin-left: 10px;
+@media all and (max-width: 991px) {
+  .main-container {
+    grid-template-columns: 1fr 400px 200px 1fr;
+  }
+}
+@media all and (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 10px 1fr 1fr 10px;
+    grid-template-rows: 185px 0.8fr 1fr 300px 60px;
+  }
+
+  .tech-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .main-container {
+    grid-template-rows: 185px 0.9fr 1fr 300px 60px;
+  }
 }
