@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import headshot from './IMG_0009.jpg';
 import Projects from './components/Projects';
+import Blogs from './components/Blogs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHtml5,
@@ -127,13 +128,16 @@ function App() {
             👨🏻‍💻
           </span>
         </h1>
-        <div className="blog-row">
-          <div className="blog-description">
-            Nothing here yet! Check back soon{' '}
-            <span role="img" aria-label="toothy smile emoji">
-              😁
-            </span>
-          </div>
+        <Blogs />
+        <div className="link-row">
+          <a
+            href="https://austinkrueger.github.io/blogs"
+            className="highlight"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            See all my blog posts
+          </a>
         </div>
       </section>
       <footer className="footer">
