@@ -26,8 +26,8 @@ export default class Projects extends React.Component {
     }
     return (
       <div className="project-container">
-        {project_list.slice(0, 3).map((project) => (
-          <div className="card-row" id={project.id}>
+        {project_list.map((project) => (
+          <div className="card-row" key={project.id}>
             <div className="card-description">
               <h3>{project.name}</h3>
               <p>
