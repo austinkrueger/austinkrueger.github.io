@@ -16,12 +16,13 @@ import {
   faSass,
   faGithub,
   faLinkedin,
-  faTwitter
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
     <main className="main-container">
+      s
       <header className="header-content">
         <img src={headshot} alt="nice headshot" className="img-element" />
         <h3 className="header-text">Austin Krueger</h3>
@@ -33,11 +34,14 @@ function App() {
             👋🏻
           </span>
         </h1>
-        <p>My name is Austin, and I'm a full stack engineer.</p>
         <p>
-          I create designs, front-end experiences, and back-end APIs. I also
-          have experience with deploying scaled applications and orchestrating
-          databases.
+          My name is Austin, and I'm a full stack web developer with an affinity
+          towards front-end technologies.
+        </p>
+        <p>
+          I create front-end experiences and back-end APIs using best practices
+          in security and the latest UX trends. I also have some experience with
+          deploying scaled applications as well as scaffolding databases.
         </p>
         <p>
           I'm currently working on a few{' '}
@@ -53,7 +57,7 @@ function App() {
         </p>
         <p>
           Outside of technology and the web I enjoy a thrilling book, learning
-          about the culinary arts, and the art of cinema.
+          about the culinary arts, and watching movies on the big screen.
         </p>
         <div className="icon-card">
           <p>Here are a few of the technologies I am familiar with: </p>
@@ -103,8 +107,7 @@ function App() {
           Projects{' '}
           <span role="img" aria-label="rocketship emoji">
             🚀
-          </span>{' '}
-          - each of these is a work in progress
+          </span>
         </h1>
         <Projects />
         <div className="link-row">
@@ -136,7 +139,7 @@ function App() {
       </section>
       <footer className="footer">
         <p>
-          &copy;2019 All Rights Reserved. Questions, Comments, Book suggestions?{' '}
+          &copy;2020 All Rights Reserved. Questions, Comments, Book suggestions?{' '}
           <a href="mailto:akruegr@gmail.com" className="highlight">
             Send me an email!
           </a>

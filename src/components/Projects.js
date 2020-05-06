@@ -16,7 +16,11 @@ export default class Projects extends React.Component {
 
   render() {
     const project_list = this.state.projects;
-    project_list.splice(1, 1);
+    for (var i = project_list.length - 1; i >= 0; i--) {
+      if (project_list[i].name === 'austinkrueger.github.io') {
+        project_list.splice(i, 1);
+      }
+    }
     return (
       <div className="project-container">
         {project_list.slice(0, 3).map(project => (
