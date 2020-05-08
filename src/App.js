@@ -121,7 +121,7 @@ function App() {
           </a>
         </div>
       </section>
-      <section className="blog-content">
+      {/* <section className="blog-content">
         <h1 className="blog-header">
           Blogs{' '}
           <span role="img" aria-label="guy behind computer emoji">
@@ -139,7 +139,7 @@ function App() {
             See all my blog posts
           </a>
         </div>
-      </section>
+      </section> */}
       <footer className="footer">
         <p>
           &copy;2020 All Rights Reserved. Questions, Comments, Book suggestions?{' '}
