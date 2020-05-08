@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import headshot from './IMG_0009.jpg';
 import Projects from './components/Projects';
-import Blogs from './components/Blogs';
+// import Blogs from './components/Blogs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHtml5,
