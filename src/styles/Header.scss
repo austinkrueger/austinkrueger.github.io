@@ -1,0 +1,21 @@
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 120px 0;
+  max-width: 1440px;
+}
+
+.img-element {
+  height: 180px;
+  clip-path: circle(60px at center);
+  border: 1px solid #dbdbdb;
+}
+
+.header-text {
+  display: inline;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
