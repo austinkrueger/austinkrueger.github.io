@@ -9,8 +9,10 @@ import About from './components/About';
 function App() {
   return (
     <main className='app-container'>
-      <Header />
-      <Intro />
+      <div className='landing-container'>
+        <Header />
+        <Intro />
+      </div>
       {/* <About />
       <Projects />
       <Footer /> */}
