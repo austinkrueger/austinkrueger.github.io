@@ -13,7 +13,8 @@ export default class Intro extends React.Component {
         </h1>
         <h2 className='main-tag'>
           I'm <span className='name'>Austin Krueger</span>, a software engineer
-          specializing in creating user-focused experiences and fast APIs.
+          specializing in creating user-focused experiences and blazing fast
+          APIs.
         </h2>
         <h3 className='main-contact'>
           Let's chat!{' '}
