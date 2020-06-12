@@ -1,22 +1,50 @@
 import React from 'react';
 import './App.scss';
-import Projects from './components/Projects';
-import Header from './components/Header';
-import Intro from './components/Intro';
-import Footer from './components/Footer';
-import About from './components/About';
 
 function App() {
   return (
-    <main className='app-container'>
-      <div className='landing-container'>
-        <Header />
-        <Intro />
-      </div>
-      {/* <About />
-      <Projects />
-      <Footer /> */}
-    </main>
+    <section className='main-content'>
+      <h2 className='main-tag'>
+        Hi, I'm <span className='name'>Austin Krueger</span>, my portfolio has
+        moved to a different castle, but you can still find a couple projects
+        like my{' '}
+        <a
+          className='highlight-link'
+          href='https://austinkrueger.github.io/css-grid-vis'
+          rel='noopener noreferrer'
+          target='_blank'>
+          CSS Grid Visualizer
+        </a>{' '}
+        or
+        <a
+          className='highlight-link'
+          href='https://austinkrueger.github.io/learning-jasmine'
+          rel='noopener noreferrer'
+          target='_blank'>
+          Card Data Randomizer
+        </a>{' '}
+        here.
+      </h2>
+      <h3 className='main-contact'>
+        Feel free to send me an email if you'd like to get in touch{' '}
+        <a
+          className='highlight-link'
+          href='mailto:akruegr@gmail.com'
+          rel='noopener noreferrer'
+          target='_blank'>
+          akruegr@gmail.com
+        </a>
+        <br />
+        Otherwise, check out my new site{' '}
+        <a
+          className='highlight-link'
+          href='https://austinkrueger.dev'
+          rel='noopener noreferrer'
+          target='_blank'>
+          austinkrueger.dev
+        </a>
+      </h3>
+    </section>
   );
 }
 
